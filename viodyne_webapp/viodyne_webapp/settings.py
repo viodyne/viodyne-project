@@ -25,7 +25,7 @@ SECRET_KEY = '8!@sf+1g5vipk8jqd6q%4r4u7hk!rb#p2x4e2(b6ls8+7_#hil'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['173.212.214.48']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -78,7 +78,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'viodyne_webapp',
         'USER': 'root',
-        'PASSWORD':'',
+        'PASSWORD':'s',
         'HOST':'localhost',
         'PORT':'',
     }
